@@ -203,7 +203,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/math-base-special-beta/tree/esm
 [branches-url]: https://github.com/stdlib-js/math-base-special-beta/blob/main/branches.md
 
-[beta-function]: http://en.wikipedia.org/wiki/Beta_function
+[beta-function]: https://en.wikipedia.org/wiki/Beta_function
 
 [gamma-function]: https://en.wikipedia.org/wiki/Gamma_function
 
