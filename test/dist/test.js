@@ -31,10 +31,10 @@ var beta = require( './../../dist' );
 
 // FIXTURES //
 
-var a1 = require( './../..xtures/r/arg1.json' );
-var b1 = require( './../..xtures/r/arg2.json' );
-var expected1 = require( './../..xtures/r/expected.json' );
-var cpp = require( './../..xtures/cpp/output.json' );
+var a1 = require( './../fixtures/r/arg1.json' );
+var b1 = require( './../fixtures/r/arg2.json' );
+var expected1 = require( './../fixtures/r/expected.json' );
+var cpp = require( './../fixtures/cpp/output.json' );
 var expected2 = cpp.expected;
 var a2 = cpp.a;
 var b2 = cpp.b;
