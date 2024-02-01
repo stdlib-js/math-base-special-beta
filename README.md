@@ -71,38 +71,32 @@ The [beta function][beta-function] is related to the [Gamma function][gamma-func
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-beta
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-beta = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-beta@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var beta = require( 'path/to/vendor/umd/math-base-special-beta/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-beta@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.beta;
-})();
-</script>
+var beta = require( '@stdlib/math-base-special-beta' );
 ```
 
 #### beta( x, y )
@@ -136,13 +130,8 @@ val = beta( 4.0, 1.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-beta@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var beta = require( '@stdlib/math-base-special-beta' );
 var x;
 var y;
 
@@ -151,11 +140,6 @@ for ( x = 0; x < 10; x++ ) {
         console.log( 'x: %d, \t y: %d, \t f(x,y): %d', x, y, beta( x, y ) );
     }
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -236,8 +220,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/math-base-special-beta/tree/deno
+[deno-readme]: https://github.com/stdlib-js/math-base-special-beta/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/math-base-special-beta/tree/umd
+[umd-readme]: https://github.com/stdlib-js/math-base-special-beta/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/math-base-special-beta/tree/esm
+[esm-readme]: https://github.com/stdlib-js/math-base-special-beta/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/math-base-special-beta/blob/main/branches.md
 
 [beta-function]: https://en.wikipedia.org/wiki/Beta_function
@@ -246,11 +233,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/betainc]: https://github.com/stdlib-js/math-base-special-betainc/tree/umd
+[@stdlib/math/base/special/betainc]: https://github.com/stdlib-js/math-base-special-betainc
 
-[@stdlib/math/base/special/betaincinv]: https://github.com/stdlib-js/math-base-special-betaincinv/tree/umd
+[@stdlib/math/base/special/betaincinv]: https://github.com/stdlib-js/math-base-special-betaincinv
 
-[@stdlib/math/base/special/betaln]: https://github.com/stdlib-js/math-base-special-betaln/tree/umd
+[@stdlib/math/base/special/betaln]: https://github.com/stdlib-js/math-base-special-betaln
 
 <!-- </related-links> -->
 
