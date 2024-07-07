@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`a78f7d1`](https://github.com/stdlib-js/stdlib/commit/a78f7d1b859b6b1d7b0bc0ee4daf76789e3e0910) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`d4fd701`](https://github.com/stdlib-js/stdlib/commit/d4fd701ae65d28edea1410a6f5a757ac39214f68) - **feat:** add C implementation for `math/base/special/beta` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`9ed7d0e`](https://github.com/stdlib-js/stdlib/commit/9ed7d0e7d57edb5ad0dfb65c944bed87d475cbf3) - **chore:** add missing trailing newlines _(by Philipp Burckhardt)_
 
