@@ -78,6 +78,11 @@ The [beta function][beta-function] is related to the [Gamma function][gamma-func
 ## Usage
 
 ```javascript
+import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-beta@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-beta/tags). For example,
+
+```javascript
 import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-beta@v0.3.0-deno/mod.js';
 ```
 
@@ -113,7 +118,7 @@ val = beta( 4.0, 1.0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-beta@v0.3.0-deno/mod.js';
+import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-beta@deno/mod.js';
 var x;
 var y;
 
