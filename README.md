@@ -78,6 +78,11 @@ The [beta function][beta-function] is related to the [Gamma function][gamma-func
 ## Usage
 
 ```javascript
+import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-beta@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-beta/tags). For example,
+
+```javascript
 import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-beta@v0.3.0-esm/index.mjs';
 ```
 
@@ -118,7 +123,7 @@ val = beta( 4.0, 1.0 );
 <body>
 <script type="module">
 
-import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-beta@v0.3.0-esm/index.mjs';
+import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-beta@esm/index.mjs';
 var x;
 var y;
 
