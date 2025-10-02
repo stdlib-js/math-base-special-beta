@@ -54,7 +54,6 @@
   },
   "devDependencies": {
     "@stdlib/assert-is-nan": "^0.2.2",
-    "@stdlib/assert-is-number": "^0.2.2",
     "@stdlib/constants-float64-pinf": "^0.2.2",
     "@stdlib/fs-read-file": "^0.2.2",
     "@stdlib/fs-write-file": "^0.2.2",
