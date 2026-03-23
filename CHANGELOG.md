@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-23)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`1790fd8`](https://github.com/stdlib-js/stdlib/commit/1790fd8540adf9a62bdd63361c7cdcc8ad540c36) - **bench:** refactor to use string interpolation in `math/base/special/beta` [(#11090)](https://github.com/stdlib-js/stdlib/pull/11090) _(by Partha Das)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Partha Das
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
