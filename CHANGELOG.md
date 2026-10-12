@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-16)
+## Unreleased (2026-10-12)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`8c05bc6`](https://github.com/stdlib-js/stdlib/commit/8c05bc6d4db92616375d80463af6950eb5bddb9f) - **bench:** clean-up [(#15934)](https://github.com/stdlib-js/stdlib/pull/15934) _(by Philipp Burckhardt, Athan Reines)_
 -   [`4a1119c`](https://github.com/stdlib-js/stdlib/commit/4a1119c6493ce320a66f3f99a4cce62831f22ad4) - **test:** migrate `math/base/special/beta` to ULP-based testing [(#14205)](https://github.com/stdlib-js/stdlib/pull/14205) _(by Ujjwal Verma)_
 -   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
 -   [`bd60a20`](https://github.com/stdlib-js/stdlib/commit/bd60a209ca4b0989663edbbc591bc7da80294827) - **build:** update R version to 4.2.0 in lint workflows [(#11262)](https://github.com/stdlib-js/stdlib/pull/11262) _(by Mara Averick)_
@@ -27,8 +28,9 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Mara Averick
 -   Partha Das
 -   Philipp Burckhardt
